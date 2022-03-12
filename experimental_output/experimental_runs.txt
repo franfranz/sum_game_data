@@ -1,0 +1,161 @@
+
+#
+#	SPLIT 0 (Train == Test)
+#
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_test_set_n5_S0.txt" --validation_data "train_test_set_n5_S0.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 1 --temperature 3 --print_validation_events > output_files/runS0_E001.txt 
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_test_set_n5_S0.txt" --validation_data "train_test_set_n5_S0.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 2 --temperature 3 --print_validation_events > output_files/runS0_E002.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_test_set_n5_S0.txt" --validation_data "train_test_set_n5_S0.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 3 --temperature 3 --print_validation_events > output_files/runS0_E003.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_test_set_n5_S0.txt" --validation_data "train_test_set_n5_S0.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 4 --temperature 3 --print_validation_events > output_files/runS0_E004.txt
+OK 
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_test_set_n5_S0.txt" --validation_data "train_test_set_n5_S0.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 5 --temperature 3 --print_validation_events > output_files/runS0_E005.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_test_set_n5_S0.txt" --validation_data "train_test_set_n5_S0.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 6 --temperature 3 --print_validation_events > output_files/runS0_E006.txt
+OK
+
+-----DO NOT RUN
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_test_set_n5_S0.txt" --validation_data "train_test_set_n5_S0.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 7 --temperature 3 --print_validation_events > output_files/runS0_E007.txt
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_test_set_n5_S0.txt" --validation_data "train_test_set_n5_S0.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 8 --temperature 3 --print_validation_events > output_files/runS0_E008.txt
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S0.txt" --validation_data "train_set_n5_S0.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 9 --temperature 3 --print_validation_events > output_files/runS0_E009.txt
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S0.txt" --validation_data "train_set_n5_S0.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 10 --temperature 3 --print_validation_events > output_files/runS0_E010.txt
+----OK RUN
+
+#
+#	SPLIT 1 (Random)
+#
+
+DID NOT RUN
+
+
+#
+#	SPLIT 2a  - A same sum results from different input numbers across the 2 subsets
+#		
+#		([0,2] in training, [1,1] in testing)
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S2.txt" --validation_data "test_set_n5_S2.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 1 --temperature 3 --print_validation_events > output_files/runS2a_E001.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S2.txt" --validation_data "test_set_n5_S2.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 2 --temperature 3 --print_validation_events > output_files/runS2a_E002.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S2.txt" --validation_data "test_set_n5_S2.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 3 --temperature 3 --print_validation_events > output_files/runS2a_E003.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S2.txt" --validation_data "test_set_n5_S2.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 4 --temperature 3 --print_validation_events > output_files/runS2a_E004.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S2.txt" --validation_data "test_set_n5_S2.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 5 --temperature 3 --print_validation_events > output_files/runS2a_E005.txt
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S2.txt" --validation_data "test_set_n5_S2.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 6 --temperature 3 --print_validation_events > output_files/runS2a_E006.txt
+
+--DO NOT RUN 
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S2.txt" --validation_data "test_set_n5_S2.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 7 --temperature 3 --print_validation_events > output_files/runS2a_E007.txt
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S2.txt" --validation_data "test_set_n5_S2.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 8 --temperature 3 --print_validation_events > output_files/runS2a_E008.txt
+-- OK RUN
+
+#
+#	SPLIT 2b  - A same sum results from different input numbers across the 2 subsets
+#
+#		2b is as reversed 2a ([1,1] in training, [2,0] in testing)
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "test_set_n5_S2.txt" --validation_data "train_set_n5_S2.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 1 --temperature 3 --print_validation_events > output_files/runS2b_E001.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "test_set_n5_S2.txt" --validation_data "train_set_n5_S2.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 2 --temperature 3 --print_validation_events > output_files/runS2b_E002.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "test_set_n5_S2.txt" --validation_data "train_set_n5_S2.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 3 --temperature 3 --print_validation_events > output_files/runS2b_E003.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "test_set_n5_S2.txt" --validation_data "train_set_n5_S2.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 4 --temperature 3 --print_validation_events > output_files/runS2b_E004.txt
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "test_set_n5_S2.txt" --validation_data "train_set_n5_S2.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 5 --temperature 3 --print_validation_events > output_files/runS2b_E005.txt
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "test_set_n5_S2.txt" --validation_data "train_set_n5_S2.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 6 --temperature 3 --print_validation_events > output_files/runS2b_E006.txt
+
+
+
+#
+#	SPLIT 3 - A same sum results from the same input numbers in different orders across the 2 subsets
+#
+#		3a ([1,4]in training, [4,1]in testing)
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S3.txt" --validation_data "test_set_n5_S3.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 1 --temperature 3 --print_validation_events > output_files/runS3a_E001.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S3.txt" --validation_data "test_set_n5_S3.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 2 --temperature 3 --print_validation_events > output_files/runS3a_E002.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S3.txt" --validation_data "test_set_n5_S3.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 3 --temperature 3 --print_validation_events > output_files/runS3a_E003.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S3.txt" --validation_data "test_set_n5_S3.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 4 --temperature 3 --print_validation_events > output_files/runS3a_E004.txt
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S3.txt" --validation_data "test_set_n5_S3.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 5 --temperature 3 --print_validation_events > output_files/runS3a_E005.txt
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S3.txt" --validation_data "test_set_n5_S3.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 6 --temperature 3 --print_validation_events > output_files/runS3a_E006.txt
+
+
+#
+#	SPLIT 3b - A same sum results from the same input numbers in different orders across the 2 subsets
+#
+#		3b is as reversed 3a ([1,4]in training, [4,1]in testing)
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "test_set_n5_S3.txt" --validation_data "train_set_n5_S3.txt"  --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 1 --temperature 3 --print_validation_events > output_files/runS3b_E001.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "test_set_n5_S3.txt" --validation_data "train_set_n5_S3.txt"  --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 2 --temperature 3 --print_validation_events > output_files/runS3b_E002.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "test_set_n5_S3.txt" --validation_data "train_set_n5_S3.txt"  --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 3 --temperature 3 --print_validation_events > output_files/runS3b_E003.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "test_set_n5_S3.txt" --validation_data "train_set_n5_S3.txt"  --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 4 --temperature 3 --print_validation_events > output_files/runS3b_E004.txt
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "test_set_n5_S3.txt" --validation_data "train_set_n5_S3.txt"  --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 5 --temperature 3 --print_validation_events > output_files/runS3b_E005.txt
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "test_set_n5_S3.txt" --validation_data "train_set_n5_S3.txt"  --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 6 --temperature 3 --print_validation_events > output_files/runS3b_E006.txt
+
+
+
+#
+#	SPLIT 4 The sums in validation files 
+#
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S4.txt" --validation_data "test_set_n5_S4.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 1 --temperature 3 --print_validation_events > output_files/runS4_E001.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S4.txt" --validation_data "test_set_n5_S4.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 2 --temperature 3 --print_validation_events > output_files/runS4_E002.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S4.txt" --validation_data "test_set_n5_S4.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 3 --temperature 3 --print_validation_events > output_files/runS4_E003.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S4.txt" --validation_data "test_set_n5_S4.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 4 --temperature 3 --print_validation_events > output_files/runS4_E004.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S4.txt" --validation_data "test_set_n5_S4.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 5 --temperature 3 --print_validation_events > output_files/runS4_E005.txt
+OK
+
+python -m play_sum_v05_03 --mode 'gs' --train_data "train_set_n5_S4.txt" --validation_data "test_set_n5_S4.txt" --n_attributes 2 --n_values 7 --n_epochs 120 --batch_size 512 --validation_batch_size 1000 --max_len 1 --vocab_size 500 --sender_hidden 256 --receiver_hidden 512 --sender_embedding 5 --receiver_embedding 30 --receiver_cell "gru" --sender_cell "gru" --lr 0.01 --random_seed 6 --temperature 3 --print_validation_events > output_files/runS4_E006.txt
+OK
+
+
+
+
+
+
+
+
