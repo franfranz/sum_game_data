@@ -25,7 +25,7 @@ wd="path"
 setwd(wd)
 
 # load data 
-dat=read.csv("s0_lastepoch.csv", sep=";")
+dat=read.csv("s0_runs_lastep.csv")
 
 # number of runs analyzed
 run_nums=length(unique(dat$run))
